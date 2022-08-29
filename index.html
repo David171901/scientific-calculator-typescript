@@ -4,10 +4,32 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- STYLES: TAILWINDSCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app"></div>
+
+    <div class="calculator">
+        <div class="calc-container">
+
+            <!-- this the output window ↓ -->
+            <div class="output">
+                <div class="operation">
+                    <div class="value"></div>
+                </div>
+                <div class="result">
+                    <div class="value">0</div>
+                </div>
+            </div>
+
+            <!-- output div ends here -->
+            <div class="input">
+
+            </div>
+        </div>
+    </div>
+    
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
